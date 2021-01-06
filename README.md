@@ -8,6 +8,7 @@
 
 ` ftpput.sh $ftp_ip $ftp_username $ftp_psw $TargetPath $upload_file $remote_dir `
 
+`code` 
 
 # 申明 / Main
 
