@@ -1,7 +1,7 @@
 # ftpput
 
 # 用法
-ftpput.sh <FTPServerAddress> <FTP_UserName> <FTP_Password> <MainTargetPath> <local_dir/filename> <remote_dir>
+< ftpput.sh <FTPServerAddress> <FTP_UserName> <FTP_Password> <MainTargetPath> <local_dir/filename> <remote_dir> >
 
 ftpput.sh $ftp_ip $ftp_username $ftp_psw $TargetPath $upload_file $remote_dir
 
