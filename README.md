@@ -27,6 +27,8 @@ To upload files in Github Actions with FTP (without inter actions), I create thi
 使用FTP用户名 ` $ftp_username `，
 
 Use FTP Username ` $ftp_username ` ,
+ 
+ 
 
 以及FTP密码 ` $ftp_psw` ，
 
