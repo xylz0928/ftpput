@@ -11,6 +11,7 @@
 
 # 申明 / Main
 由于需要在云编译中实现无交互FTP上传文件，故采取本脚本方式。[亦可用于任意Linux系统]
+
 To upload files in Github Actions with FTP (without inter actions), I create this bash script.[Also can be used on any Linux env.]
 
 ### 为何把服务器，用户名，密码等参数全部拿出来，而不是直接写在脚本里：
