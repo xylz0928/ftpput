@@ -21,43 +21,41 @@ To upload files in Github Actions with FTP (without inter actions), I create thi
 
 - 方便随时更换目标服务器 / To eaily change target FTP Server
 - 方便用于Github云编译，隐藏敏感信息（搭配Secrets使用）/ To be easy using in Github Actions, can hide secrets parameters(work together with Github Secrets)
-<br><br>
+
 # 本脚本可实现 / This script is to :
-<br>
+
 使用FTP用户名 ` $ftp_username `，
-<br>
-`code` 
-`code` 
+
 Use FTP Username ` $ftp_username ` ,
-<br><br>
+
 以及FTP密码 ` $ftp_psw` ，
-<br>
+
 and FTP Password ` $ftp_psw` ,
-<br><br>
+
 登录到目标FTP服务器 ` $ftp_ip` ，
-<br>
+
 To logon to FTP Server ` $ftp_ip` ,
-<br><br>
+
 cd进入目标目录 ` $TargetPath` ，
-<br>
+
 cd to enter target remote path ` $TargetPath` ,
-<br><br>
+
 创建以 ` 当前日期`  为名的文件夹，
-<br>
+
 create folder named with ` current date` ,
-<br><br>
+
 把本地文件 ` $upload_file` ，
-<br>
+
 Put local file ` $upload_file` ,
-<br><br>
+
 上传到该目录 ` $remote_dir` 
-<br>
+
 通常直接写` ./` 来实现上传到刚创建的日期名文件夹内，为扩大可操作性，本路径值可按需求变动
-<br><br>
+
 Upload to the folder [$remote_dir] 
-<br>
+
 usually we can set as ` ./`  to upload file to created folder named as currect date, to be more flexible, I let the parameter can be set by you own
-<br><br>
+
 
 
 # 本脚本优势 / Advantage :
