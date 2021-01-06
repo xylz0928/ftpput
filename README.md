@@ -25,37 +25,29 @@ To upload files in Github Actions with FTP (without inter actions), I create thi
 # 本脚本可实现 / This script is to :
 
 使用FTP用户名 ` $ftp_username `，
-
 Use FTP Username ` $ftp_username ` ,
 <br/></br><br/></br>
 以及FTP密码 ` $ftp_psw` ，
-
 and FTP Password ` $ftp_psw` ,
-
+<br/></br><br/></br>
 登录到目标FTP服务器 ` $ftp_ip` ，
-
 To logon to FTP Server ` $ftp_ip` ,
-
+<br/></br><br/></br>
 cd进入目标目录 ` $TargetPath` ，
-
 cd to enter target remote path ` $TargetPath` ,
-
+<br/></br><br/></br>
 创建以 ` 当前日期`  为名的文件夹，
-
 create folder named with ` current date` ,
-
+<br/></br><br/></br>
 把本地文件 ` $upload_file` ，
-
 Put local file ` $upload_file` ,
-
+<br/></br><br/></br>
 上传到该目录 ` $remote_dir` 
-
 通常直接写` ./` 来实现上传到刚创建的日期名文件夹内，为扩大可操作性，本路径值可按需求变动
-
+<br/></br>
 Upload to the folder [$remote_dir] 
-
 usually we can set as ` ./`  to upload file to created folder named as currect date, to be more flexible, I let the parameter can be set by you own
-
+<br/></br><br/></br>
 
 
 # 本脚本优势 / Advantage :
