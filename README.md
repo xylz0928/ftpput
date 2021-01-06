@@ -22,7 +22,7 @@ To upload files in Github Actions with FTP (without inter actions), I create thi
 - 方便随时更换目标服务器 / To eaily change target FTP Server
 - 方便用于Github云编译，隐藏敏感信息（搭配Secrets使用）/ To be easy using in Github Actions, can hide secrets parameters(work together with Github Secrets)
 <br><br>
-### 本脚本可实现 / This script is to :
+# 本脚本可实现 / This script is to :
 <br>
 使用FTP用户名 ` $ftp_username `，
 <br>
