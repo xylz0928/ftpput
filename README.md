@@ -24,10 +24,10 @@ To upload files in Github Actions with FTP (without inter actions), I create thi
 ### 本脚本可实现 / This script is to :
 <br>
 使用FTP用户名 
-` $ftp_username`
+` $ftp_username `
 ，
 <br>
-Use FTP Username ` $ftp_username` ,
+Use FTP Username ` $ftp_username ` ,
 <br><br>
 以及FTP密码 ` $ftp_psw` ，
 <br>
