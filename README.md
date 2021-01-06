@@ -28,9 +28,11 @@ To upload files in Github Actions with FTP (without inter actions), I create thi
 Use FTP Username [$ftp_username],
 
 
+
 以及FTP密码 [$ftp_psw]，
 
 and FTP Password [$ftp_psw],
+
 
 
 登录到目标FTP服务器 [$ftp_ip]，
@@ -38,9 +40,11 @@ and FTP Password [$ftp_psw],
 To logon to FTP Server [$ftp_ip],
 
 
+
 cd进入目标目录 [$TargetPath]，
 
 cd to enter target remote path [$TargetPath],
+
 
 
 创建以 [当前日期] 为名的文件夹，
@@ -48,9 +52,11 @@ cd to enter target remote path [$TargetPath],
 create folder named with [current date],
 
 
+
 把本地文件 [$upload_file]，
 
 Put local file [$upload_file],
+
 
 
 上传到该目录 [$remote_dir]
@@ -58,9 +64,11 @@ Put local file [$upload_file],
 [通常直接写./来实现上传到刚创建的日期名文件夹内，为扩大可操作性，本路径值可按需求变动]
 
 
+
 Upload to the folder [$remote_dir] 
 
 [usually we can set as ./ to upload file to created folder named as currect date, to be more flexible, I let the parameter can be set by you own]
+
 
 
 # 本脚本优势 / Advantage :
