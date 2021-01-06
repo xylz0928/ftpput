@@ -49,11 +49,11 @@ Put local file [$upload_file],
 <br><br>
 上传到该目录 [$remote_dir]
 <br>
-[通常直接写` ./` 来实现上传到刚创建的日期名文件夹内，为扩大可操作性，本路径值可按需求变动]
+(通常直接写` ./` 来实现上传到刚创建的日期名文件夹内，为扩大可操作性，本路径值可按需求变动)
 <br><br>
 Upload to the folder [$remote_dir] 
 <br>
-[usually we can set as ` ./`  to upload file to created folder named as currect date, to be more flexible, I let the parameter can be set by you own]
+(usually we can set as ` ./`  to upload file to created folder named as currect date, to be more flexible, I let the parameter can be set by you own)
 <br><br>
 
 
