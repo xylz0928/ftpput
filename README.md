@@ -1,6 +1,9 @@
 # ftpput
 
 # 用法
+
+` wget -O ftpput.sh git.io/FTPPut && chmod +x ftpput.sh `
+
 ` ftpput.sh <FTPServerAddress> <FTP_UserName> <FTP_Password> <MainTargetPath> <local_dir/filename> <remote_dir> `
 
 ` ftpput.sh $ftp_ip $ftp_username $ftp_psw $TargetPath $upload_file $remote_dir `
