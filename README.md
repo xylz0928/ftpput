@@ -21,7 +21,9 @@ cd进入目标目录[$TargetPath]，
 上传到该目录[$remote_dir][通常直接写./来实现上传到刚创建的日期名文件夹内，为扩大可操作性，本路径值可按需求变动]
 
 # 本脚本优势：
+
 由于ftp命令的简陋性，经常遇到上传完成但无返回，导致自动化脚本一直停留等待的问题。故可利用本脚本，实现在后台上传，可搭配timeout设定，强制关闭ftp进程。（高级用户可进行对比源/目标的sha256值，以判断是否需要掐断再重新上传）
+
 调用参考：
 ` ftpput.sh $ftp_ip $ftp_username $ftp_psw $TargetPath $upload_file $remote_dir > ftp.log 2>&1 & `
 
@@ -30,6 +32,6 @@ cd进入目标目录[$TargetPath]，
 ` killall -9 ftp `
 
 本脚本依赖ftp，
-yum install ftp -y
-或 apt install ftp -y
+`yum install ftp -y`
+或 `apt install ftp -y`
 来安装，具体请参考运行环境。
