@@ -35,32 +35,32 @@ and FTP Password ` $ftp_psw` ,
 <br/></br>
 
 登录到目标FTP服务器 ` $ftp_ip` ，
-<br/></br>
+
 To logon to FTP Server ` $ftp_ip` ,
 <br/></br>
 
 cd进入目标目录 ` $TargetPath` ，
-<br/></br>
+
 cd to enter target remote path ` $TargetPath` ,
 <br/></br>
 
 创建以 ` 当前日期`  为名的文件夹，
-<br/></br>
+
 create folder named with ` current date` ,
 <br/></br>
 
 把本地文件 ` $upload_file` ，
-<br/></br>
+
 Put local file ` $upload_file` ,
 <br/></br>
 
 上传到该目录 ` $remote_dir` 
-<br/></br>
+
 通常直接写` ./` 来实现上传到刚创建的日期名文件夹内，为扩大可操作性，本路径值可按需求变动
 <br/></br>
 
 Upload to the folder [$remote_dir] 
-<br/></br>
+
 usually we can set as ` ./`  to upload file to created folder named as currect date, to be more flexible, I let the parameter can be set by you own
 <br/></br>
 
