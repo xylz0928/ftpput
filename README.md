@@ -8,7 +8,7 @@
 
 ` ftpput.sh $ftp_ip $ftp_username $ftp_psw $TargetPath $upload_file $remote_dir `
 
-`code` 
+
 
 # 申明 / Main
 
@@ -26,6 +26,7 @@ To upload files in Github Actions with FTP (without inter actions), I create thi
 <br>
 使用FTP用户名 ` $ftp_username `，
 <br>
+`code` 
 `code` 
 Use FTP Username ` $ftp_username ` ,
 <br><br>
